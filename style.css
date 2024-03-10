@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+.container{
+    padding: 10px;
+}
+
+h1,
+p{
+    text-align: center;
+    padding: 5px;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+th, td{
+    height: 15px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.d-flex{
+    text-align: center;
+}
+
+.d-flex li{
+    color: #000;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#change{
+    padding: 10px;
+}
+
+.num{
+    padding: 10px;
+    border: 1px solid black;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#prevPage, #nextPage, #firstPage{
+    color: white;
+    background: black;
+    border: 1px solid white;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.num:hover{
+    background-color: rgb(78, 78, 236);
+}
+
+#prevPage:hover,
+#nextPage:hover, 
+#firstPage:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
